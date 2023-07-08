@@ -1,9 +1,19 @@
 @font-face {
-  font-family: "CircularSpBold";
-  src: local("CircularSpBold"), url("../../shared/fonts/CircularSpBold.ttf") format("truetype");
+  font-family: CircularSpCyrlBold;
+  src: url("../../shared/fonts/CircularSpCyrlBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "CircularSpBook";
-  src: local("CircularSpBook"), url("../../shared/fonts/CircularSpBook.ttf") format("truetype");
+  font-family: CircularSpCyrlBook;
+  src: url("../../shared/fonts/CircularSpCyrlBook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: CircularSpBold;
+  src: url("../../shared/fonts/CircularSpBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: CircularSpBook;
+  src: url("../../shared/fonts/CircularSpBook.ttf") format("truetype");
 }

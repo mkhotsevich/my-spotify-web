@@ -3,11 +3,7 @@
 @import "fonts";
 
 body {
-  font-family: var(--font-circular-sp-family);
-  background-color: var(--color-backround);
+  font-family: var(--font-circular-sp-book-family);
+  background-color: var(--backround-color);
   min-height: 100vh;
-}
-
-button {
-  font-family: var(--font-circular-sp-family);
 }
