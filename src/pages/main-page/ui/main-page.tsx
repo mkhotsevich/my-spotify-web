@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-export const MainPage = () => {
+import { CreateProfile } from 'features/create-profile';
+
+export const MainPage: FC = () => {
   return (
     <div>
-      MainPage
+      <CreateProfile />
     </div>
   );
 };

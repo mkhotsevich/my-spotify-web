@@ -1,5 +1,6 @@
-import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import webpack from 'webpack';
+
 import { WebpackOptions } from './webpack.types';
 
 export const webpackModules = ({ isDev }: WebpackOptions): webpack.ModuleOptions => {
@@ -58,6 +59,10 @@ export const webpackModules = ({ isDev }: WebpackOptions): webpack.ModuleOptions
     use: [
       {
         loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'media',
+        },
       },
     ],
   };

@@ -1,1 +1,1 @@
-export { CreateProfile } from './ui';
+export { CreateProfile } from './ui/create-profile';
