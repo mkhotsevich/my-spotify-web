@@ -26,6 +26,10 @@ Web-версия приложение для шаринга активности
 - [x] Переименовать main ветку на master
 - [x] Подключить Spotify шрифты
 
+### UI
+- [X] [Typography](https://www.figma.com/file/gvfqIRr8uwB8fLyXJPRneV/my-spotify-design?type=design&node-id=106-26&mode=design&t=9z1UvlxWIr8t0Cmq-4) 
+- [X] [Button](https://www.figma.com/file/gvfqIRr8uwB8fLyXJPRneV/my-spotify-design?type=design&node-id=106-60&mode=design&t=9z1UvlxWIr8t0Cmq-4)
+- [ ] Checkbox
 
 ### Полезные ссылки
 - [FigJam Board](https://www.figma.com/file/RLqWcgpIBHjyRQhtzqfMmq/my-spotify-board?type=whiteboard&node-id=0%3A1&t=YremDH1h4MuXNIZN-1) - доска с идеями
