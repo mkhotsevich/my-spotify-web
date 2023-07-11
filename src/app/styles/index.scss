@@ -1,9 +1,9 @@
 @import "normalize";
 @import "vars";
-@import "fonts";
 
 body {
   font-family: var(--font-circular-sp-book-family);
   background-color: var(--backround-color);
   min-height: 100vh;
+  color: var(--primary-text-color);
 }

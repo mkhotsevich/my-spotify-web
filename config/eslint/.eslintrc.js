@@ -20,6 +20,8 @@ module.exports = {
     'arrow-body-style': 'off',
     'react/self-closing-comp': 'off',
     'import/no-unresolved': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 'off',
     'max-len': ['error', { code: 120 }],
     'react/jsx-filename-extension': [
       'error',

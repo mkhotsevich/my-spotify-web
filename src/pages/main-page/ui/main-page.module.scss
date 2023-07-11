@@ -1,6 +1,29 @@
-.mainPage {
+.container {
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  column-gap: 24px;
+
+  &:last-child {
+    flex-grow: 1;
+    margin-top: 24px;
+  }
+}
+
+.profile {
+  height: 246px;
+  width: 246px;
+}
+
+.player {
+  flex-grow: 1;
+}
+
+.artists, .tracks, .playlists {
+  height: 100%;
+  flex-grow: 1;
 }
