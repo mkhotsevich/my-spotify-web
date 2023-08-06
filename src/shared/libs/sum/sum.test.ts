@@ -1,4 +1,4 @@
-import { sum } from 'shared/libs/sum';
+import { sum } from 'shared/libs/sum/sum';
 
 describe('sum', () => {
   it('should return 2', () => {
