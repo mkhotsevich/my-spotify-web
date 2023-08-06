@@ -2,11 +2,11 @@ import path from 'path';
 
 import webpack from 'webpack';
 
-import { webpackDevServer } from './webpack.dev-server';
-import { webpackModules } from './webpack.modules';
-import { webpackPlugins } from './webpack.plugins';
-import { webpackResolvers } from './webpack.resolvers';
-import { WebpackEnv, WebpackOptions } from './webpack.types';
+import { webpackDevServer } from './config/webpack/webpack.dev-server';
+import { webpackModules } from './config/webpack/webpack.modules';
+import { webpackPlugins } from './config/webpack/webpack.plugins';
+import { webpackResolvers } from './config/webpack/webpack.resolvers';
+import { WebpackEnv, WebpackOptions } from './config/webpack/webpack.types';
 
 export default (env: WebpackEnv) => {
   const rootDir = path.resolve(__dirname, '..', '..');
